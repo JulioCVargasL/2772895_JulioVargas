@@ -1,6 +1,6 @@
 #Ingresamos por teclado 5 numeros y sacamos el promedio de los numeros pares
 
-print("Ingresa 5 numeros y te dare el promedio de los pares")
+print("Ingresa n cantidad de numeros y te dare el promedio de los pares")
 
 cont= 0
 
@@ -21,7 +21,7 @@ while cont < cant:
 		cont += 1
 
 if div == 0:
-	print("No hay numeros pares")
+	print("\nNo hay numeros pares")
 else:
 	prom = par / div
 	print(f"\nHay {div} numeros pares")
